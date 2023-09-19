@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>TypingGame</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<main>
+  <p id="display">Ready…</p>
+  
+  <button id="btn">Go!</button>
+  
+  <fieldset>
+    <legend>Setting</legend>
+   
+    <label>
+      Length(
+        <span id="sliderout">3</span>
+      )
+      <input type="range" id="slider" min="1" max="6" value="3">
+    </label>
+    
+    <label>
+      UppercaseLetter
+      <input type="checkbox" id="upper-check">
+    </label>
+
+  </fieldset>
+</main>
+
+<img src="img/kaiju.png" width="180" height="180" alt="画像" id="kaiju">
+<img src="img/banzai.png" width="180" height="180" alt="画像" id="banzai" class="none">
+
+<script src="main.js"></script>
+</body>
+</html>

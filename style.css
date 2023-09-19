@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+main{
+  border: double 3px #333;
+  width: 560px;
+  margin: 16px auto;
+  border-radius: 8px;
+  padding: 32px;
+}
+
+p{
+  background-color: #eee;
+  border-radius: inherit;
+  font-size: 48px;
+  font-family: 'Courier New', Courier, monospace;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 32px 0;  
+}
+
+button{
+  all: unset;
+  width: 80%;
+  background-color: #2585f3;
+  color: #fff;
+  padding: 8px 0;
+  width: 80%;
+  margin: 16px auto;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  border-radius: inherit;
+  box-shadow: 0 3px #005cc8;
+}
+button:hover{
+  opacity: 0.8;
+}
+button:active{
+  transform: translateY(3px);
+}
+.disabled{
+  background-color: #999;
+  box-shadow: none;
+}
+button.disabled:hover{
+  opacity: 1;
+}
+button.disabled:active{
+  transform: none;
+}
+
+fieldset{
+  border: 2px dashed #aaa;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-radius: inherit;
+}
+legend{
+  padding: 0 8px;
+}
+
+#sliderout{
+  width: 16px;
+  display: inline-block;
+  text-align: center;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+.none{
+  display: none;
+}
+#kaiju.change{
+  transform: scale(0.8);
+}
